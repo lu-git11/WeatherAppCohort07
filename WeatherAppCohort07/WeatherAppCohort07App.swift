@@ -12,6 +12,7 @@ struct WeatherAppCohort07App: App {
     var body: some Scene {
         WindowGroup {
             WeatherView()
+                .preferredColorScheme(.dark)
         }
     }
 }
